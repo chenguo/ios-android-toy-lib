@@ -1,5 +1,5 @@
 #include <jni.h>
-#include "math.hh"
+#include "common/math.hh"
 
 #include "handle.hh"
 

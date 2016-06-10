@@ -2,7 +2,7 @@
 #define _FOO_STR_H_
 
 #include <string>
-using namespace std;
+using std::string;
 
 namespace Common {
 

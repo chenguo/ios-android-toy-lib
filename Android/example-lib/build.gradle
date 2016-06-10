@@ -21,12 +21,14 @@ model {
         }
         ndk {
             moduleName "math-jni"
+            stl "stlport_static"
+            CFlags.add("-I" + file("../../common").absolutePath)
         }
         sources {
             main {
-                jniLibs {
+                jni {
                     source {
-                        srcDir "${proj_root}/common"
+                        srcDir "/Users/chen/Code/mobile-shared-lib/common/"
                     }
                 }
             }

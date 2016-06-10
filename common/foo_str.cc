@@ -1,5 +1,4 @@
 #include "foo_str.hh"
-using namespace std;
 
 Common::FooStr::FooStr(string initVal) {
   this->internalValue = new string(initVal);
