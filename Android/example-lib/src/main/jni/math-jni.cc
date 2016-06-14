@@ -1,15 +1,10 @@
 #include <jni.h>
-#include "common/math.hh"
 
-#include "handle.hh"
+extern "C" {
+JNIEXPORT jint JNICALL
+Java_example_library_Math_getNumImpl(JNIEnv *env, jobject instance) {
 
-JNIEXPORT jdouble JNICALL
-Java_com_example_Math_dotProduct(JNIEnv *env, jobject instance, jdoubleArray x_, jdoubleArray y_) {
-    jdouble *x = (*env)->GetDoubleArrayElements(env, x_, NULL);
-    jdouble *y = (*env)->GetDoubleArrayElements(env, y_, NULL);
+  return 32;
 
-    // TODO
-
-    (*env)->ReleaseDoubleArrayElements(env, x_, x, 0);
-    (*env)->ReleaseDoubleArrayElements(env, y_, y, 0);
+}
 }

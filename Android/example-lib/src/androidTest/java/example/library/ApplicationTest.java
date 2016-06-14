@@ -1,4 +1,4 @@
-package com.example;
+package example.library;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
@@ -10,4 +10,11 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
     }
+
+    public void testExample() {
+        Math m = new Math();
+        int n = m.getNum();
+        assertEquals(n, 32);
+    }
+
 }
