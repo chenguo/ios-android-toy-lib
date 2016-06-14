@@ -19,6 +19,20 @@ model {
         }
         ndk {
             moduleName "math-jni"
+            stl "stlport_static"
+            cppFlags.addAll([
+                "-I" + file("../../common").absolutePath,
+                "-std=c++11"
+            ])
+        }
+        sources {
+            main {
+                jni {
+                    source {
+                        srcDir "../../common"
+                    }
+                }
+            }
         }
     }
 }

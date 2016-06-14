@@ -11,9 +11,11 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
         super(Application.class);
     }
 
-    public void testExample() {
+    public void testDotProduct() {
         Math m = new Math();
-        int n = m.getNum();
-        assertEquals(n, 32);
+        double[] arr1 = {2.0, 1.5, 4};
+        double[] arr2 = {1.0, 2.0, 2};
+        double n = m.dotProduct(arr1, arr2);
+        assertEquals(n, 13.0);
     }
 }
