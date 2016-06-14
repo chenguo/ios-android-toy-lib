@@ -1,11 +1,11 @@
-package example.library;
+package example.lib;
 
 public class Math {
 
   private long nativeHandle;
 
   public Math() {
-    // this.long = this.initializeNative();
+    this.nativeHandle = this.initializeNative();
   }
 
   public int basic() {
@@ -28,6 +28,6 @@ public class Math {
 
   private native int getNumImpl();
 
-  // private native long initializeNative();
+  private native long initializeNative();
   // private native double dotProduct(double x[], double y[], long length);
 }
