@@ -17,12 +17,23 @@ model {
                 proguardFiles.add(file('proguard-android.txt'))
             }
         }
+        productFlavors {
+            create("arm") {
+                ndk {
+                    // You can customize the NDK configurations for each
+                    // productFlavors and buildTypes.
+                    abiFilters.add("armeabi-v7a")
+                }
+            }
+            create("all")
+        }
         ndk {
-            moduleName "math-jni"
+            moduleName "common-jni"
             stl "stlport_static"
             cppFlags.addAll([
                 "-I" + file("../../common").absolutePath,
                 "-std=c++11"
+                //"-fpermissive"
             ])
         }
         sources {

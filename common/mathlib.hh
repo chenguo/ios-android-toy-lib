@@ -1,9 +1,9 @@
-#ifndef _MATH_H_
-#define _MATH_H_
+#ifndef _MATHLIB_H_
+#define _MATHLIB_H_
 
 namespace Common {
 
-  class Math {
+  class MathLib {
 
   public:
     double dotProduct(double x[], double y[], long length);
@@ -12,4 +12,4 @@ namespace Common {
 
 }
 
-#endif // _MATH_H_
+#endif // _MATHLIB_H_

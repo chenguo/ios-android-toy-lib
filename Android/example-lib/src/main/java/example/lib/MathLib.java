@@ -1,21 +1,25 @@
 package example.lib;
 
-public class Math {
+public class MathLib {
 
   private long nativeHandle;
 
-  public Math() {
-    this.nativeHandle = this.initializeNative();
+  public MathLib() {
+    this.initializeNative();
   }
 
   public double dotProduct(double x[], double y[]) {
     return this.dotProduct(x, y, x.length);
   }
 
-  static {
-    System.loadLibrary("math-jni");
+  public long getHandle() {
+    return this.nativeHandle;
   }
 
-  private native long initializeNative();
+  static {
+    System.loadLibrary("common-jni");
+  }
+
+  private native void initializeNative();
   private native double dotProduct(double x[], double y[], long length);
 }
