@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74343E741D10E5EA00BCBEF1 /* mathlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E701D10E5EA00BCBEF1 /* mathlib.cc */; };
-		74343E751D10E5EA00BCBEF1 /* strlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E721D10E5EA00BCBEF1 /* strlib.cc */; };
-		74343E781D10E65000BCBEF1 /* MathLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E771D10E65000BCBEF1 /* MathLib.mm */; };
-		74343E7B1D10E6FF00BCBEF1 /* StringLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */; };
-		74BAD4621D0AA3940055678D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD4611D0AA3940055678D /* Test.swift */; };
+		74343E801D10E96400BCBEF1 /* mathlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E7C1D10E96400BCBEF1 /* mathlib.cc */; };
+		74343E811D10E96400BCBEF1 /* strlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E7E1D10E96400BCBEF1 /* strlib.cc */; };
+		74343E861D10E96B00BCBEF1 /* MathLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E831D10E96B00BCBEF1 /* MathLib.mm */; };
+		74343E871D10E96B00BCBEF1 /* StringLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E851D10E96B00BCBEF1 /* StringLib.mm */; };
+		74343E8A1D10E97100BCBEF1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74343E891D10E97100BCBEF1 /* Test.swift */; };
 		74BAD4641D0AA3940055678D /* libexample-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BAD4411D0A98AD0055678D /* libexample-lib.a */; };
 		74BAD46D1D0AA8B30055678D /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BAD46C1D0AA8B30055678D /* libc++.1.tbd */; };
 /* End PBXBuildFile section */
@@ -39,19 +39,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		74343E701D10E5EA00BCBEF1 /* mathlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mathlib.cc; path = ../common/mathlib.cc; sourceTree = "<group>"; };
-		74343E711D10E5EA00BCBEF1 /* mathlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mathlib.hh; path = ../common/mathlib.hh; sourceTree = "<group>"; };
-		74343E721D10E5EA00BCBEF1 /* strlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strlib.cc; path = ../common/strlib.cc; sourceTree = "<group>"; };
-		74343E731D10E5EA00BCBEF1 /* strlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = strlib.hh; path = ../common/strlib.hh; sourceTree = "<group>"; };
-		74343E761D10E65000BCBEF1 /* MathLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLib.h; sourceTree = "<group>"; };
-		74343E771D10E65000BCBEF1 /* MathLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MathLib.mm; sourceTree = "<group>"; };
-		74343E791D10E6FF00BCBEF1 /* StringLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringLib.h; sourceTree = "<group>"; };
-		74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringLib.mm; sourceTree = "<group>"; };
+		74343E7C1D10E96400BCBEF1 /* mathlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mathlib.cc; path = ../common/mathlib.cc; sourceTree = "<group>"; };
+		74343E7D1D10E96400BCBEF1 /* mathlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mathlib.hh; path = ../common/mathlib.hh; sourceTree = "<group>"; };
+		74343E7E1D10E96400BCBEF1 /* strlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strlib.cc; path = ../common/strlib.cc; sourceTree = "<group>"; };
+		74343E7F1D10E96400BCBEF1 /* strlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = strlib.hh; path = ../common/strlib.hh; sourceTree = "<group>"; };
+		74343E821D10E96B00BCBEF1 /* MathLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLib.h; sourceTree = "<group>"; };
+		74343E831D10E96B00BCBEF1 /* MathLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MathLib.mm; sourceTree = "<group>"; };
+		74343E841D10E96B00BCBEF1 /* StringLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringLib.h; sourceTree = "<group>"; };
+		74343E851D10E96B00BCBEF1 /* StringLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringLib.mm; sourceTree = "<group>"; };
+		74343E881D10E97100BCBEF1 /* test-bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "test-bridge.h"; sourceTree = "<group>"; };
+		74343E891D10E97100BCBEF1 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		74BAD4411D0A98AD0055678D /* libexample-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libexample-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BAD45F1D0AA3940055678D /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BAD4611D0AA3940055678D /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		74BAD4631D0AA3940055678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74BAD46B1D0AA4600055678D /* test-bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "test-bridge.h"; sourceTree = "<group>"; };
 		74BAD46C1D0AA8B30055678D /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -96,10 +96,10 @@
 		74BAD4431D0A98AD0055678D /* example-lib */ = {
 			isa = PBXGroup;
 			children = (
-				74343E791D10E6FF00BCBEF1 /* StringLib.h */,
-				74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */,
-				74343E761D10E65000BCBEF1 /* MathLib.h */,
-				74343E771D10E65000BCBEF1 /* MathLib.mm */,
+				74343E821D10E96B00BCBEF1 /* MathLib.h */,
+				74343E831D10E96B00BCBEF1 /* MathLib.mm */,
+				74343E841D10E96B00BCBEF1 /* StringLib.h */,
+				74343E851D10E96B00BCBEF1 /* StringLib.mm */,
 				74BAD4501D0A99120055678D /* common */,
 			);
 			path = "example-lib";
@@ -108,10 +108,10 @@
 		74BAD4501D0A99120055678D /* common */ = {
 			isa = PBXGroup;
 			children = (
-				74343E701D10E5EA00BCBEF1 /* mathlib.cc */,
-				74343E711D10E5EA00BCBEF1 /* mathlib.hh */,
-				74343E721D10E5EA00BCBEF1 /* strlib.cc */,
-				74343E731D10E5EA00BCBEF1 /* strlib.hh */,
+				74343E7C1D10E96400BCBEF1 /* mathlib.cc */,
+				74343E7D1D10E96400BCBEF1 /* mathlib.hh */,
+				74343E7E1D10E96400BCBEF1 /* strlib.cc */,
+				74343E7F1D10E96400BCBEF1 /* strlib.hh */,
 			);
 			name = common;
 			path = ..;
@@ -120,9 +120,9 @@
 		74BAD4601D0AA3940055678D /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				74343E881D10E97100BCBEF1 /* test-bridge.h */,
+				74343E891D10E97100BCBEF1 /* Test.swift */,
 				74BAD46C1D0AA8B30055678D /* libc++.1.tbd */,
-				74BAD46B1D0AA4600055678D /* test-bridge.h */,
-				74BAD4611D0AA3940055678D /* Test.swift */,
 				74BAD4631D0AA3940055678D /* Info.plist */,
 			);
 			path = Test;
@@ -217,10 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74343E751D10E5EA00BCBEF1 /* strlib.cc in Sources */,
-				74343E741D10E5EA00BCBEF1 /* mathlib.cc in Sources */,
-				74343E7B1D10E6FF00BCBEF1 /* StringLib.mm in Sources */,
-				74343E781D10E65000BCBEF1 /* MathLib.mm in Sources */,
+				74343E801D10E96400BCBEF1 /* mathlib.cc in Sources */,
+				74343E861D10E96B00BCBEF1 /* MathLib.mm in Sources */,
+				74343E871D10E96B00BCBEF1 /* StringLib.mm in Sources */,
+				74343E811D10E96400BCBEF1 /* strlib.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BAD4621D0AA3940055678D /* Test.swift in Sources */,
+				74343E8A1D10E97100BCBEF1 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
