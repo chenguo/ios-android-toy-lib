@@ -2,7 +2,6 @@
 
 Common::StringLib::StringLib(string initVal) {
   this->internalValue = new string(initVal);
-  this->value = 5;
 }
 
 Common::StringLib::~StringLib() {

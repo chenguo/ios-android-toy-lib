@@ -1,2 +1,2 @@
-#import "FooStr.h"
-#import "Math.h"
+#import "StringLib.h"
+#import "MathLib.h"

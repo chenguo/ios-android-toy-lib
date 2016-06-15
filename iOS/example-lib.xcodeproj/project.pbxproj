@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74BAD44F1D0A990B0055678D /* Math.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD44D1D0A990B0055678D /* Math.mm */; };
-		74BAD4531D0A99270055678D /* math.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD4521D0A99270055678D /* math.cc */; };
-		74BAD4571D0AA02B0055678D /* foo_str.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD4551D0AA02B0055678D /* foo_str.cc */; };
-		74BAD45A1D0AA0360055678D /* FooStr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD4591D0AA0360055678D /* FooStr.mm */; };
+		74343E741D10E5EA00BCBEF1 /* mathlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E701D10E5EA00BCBEF1 /* mathlib.cc */; };
+		74343E751D10E5EA00BCBEF1 /* strlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 74343E721D10E5EA00BCBEF1 /* strlib.cc */; };
+		74343E781D10E65000BCBEF1 /* MathLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E771D10E65000BCBEF1 /* MathLib.mm */; };
+		74343E7B1D10E6FF00BCBEF1 /* StringLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */; };
 		74BAD4621D0AA3940055678D /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD4611D0AA3940055678D /* Test.swift */; };
 		74BAD4641D0AA3940055678D /* libexample-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BAD4411D0A98AD0055678D /* libexample-lib.a */; };
 		74BAD46D1D0AA8B30055678D /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BAD46C1D0AA8B30055678D /* libc++.1.tbd */; };
@@ -39,15 +39,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74343E701D10E5EA00BCBEF1 /* mathlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mathlib.cc; path = ../common/mathlib.cc; sourceTree = "<group>"; };
+		74343E711D10E5EA00BCBEF1 /* mathlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mathlib.hh; path = ../common/mathlib.hh; sourceTree = "<group>"; };
+		74343E721D10E5EA00BCBEF1 /* strlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strlib.cc; path = ../common/strlib.cc; sourceTree = "<group>"; };
+		74343E731D10E5EA00BCBEF1 /* strlib.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = strlib.hh; path = ../common/strlib.hh; sourceTree = "<group>"; };
+		74343E761D10E65000BCBEF1 /* MathLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathLib.h; sourceTree = "<group>"; };
+		74343E771D10E65000BCBEF1 /* MathLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MathLib.mm; sourceTree = "<group>"; };
+		74343E791D10E6FF00BCBEF1 /* StringLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringLib.h; sourceTree = "<group>"; };
+		74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StringLib.mm; sourceTree = "<group>"; };
 		74BAD4411D0A98AD0055678D /* libexample-lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libexample-lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BAD44D1D0A990B0055678D /* Math.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Math.mm; sourceTree = "<group>"; };
-		74BAD44E1D0A990B0055678D /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
-		74BAD4521D0A99270055678D /* math.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = math.cc; path = ../common/math.cc; sourceTree = "<group>"; };
-		74BAD4541D0A9A7F0055678D /* math.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math.hh; path = ../common/math.hh; sourceTree = "<group>"; };
-		74BAD4551D0AA02B0055678D /* foo_str.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = foo_str.cc; path = ../common/foo_str.cc; sourceTree = "<group>"; };
-		74BAD4561D0AA02B0055678D /* foo_str.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = foo_str.hh; path = ../common/foo_str.hh; sourceTree = "<group>"; };
-		74BAD4581D0AA0360055678D /* FooStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooStr.h; sourceTree = "<group>"; };
-		74BAD4591D0AA0360055678D /* FooStr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FooStr.mm; sourceTree = "<group>"; };
 		74BAD45F1D0AA3940055678D /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BAD4611D0AA3940055678D /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		74BAD4631D0AA3940055678D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,11 +96,11 @@
 		74BAD4431D0A98AD0055678D /* example-lib */ = {
 			isa = PBXGroup;
 			children = (
+				74343E791D10E6FF00BCBEF1 /* StringLib.h */,
+				74343E7A1D10E6FF00BCBEF1 /* StringLib.mm */,
+				74343E761D10E65000BCBEF1 /* MathLib.h */,
+				74343E771D10E65000BCBEF1 /* MathLib.mm */,
 				74BAD4501D0A99120055678D /* common */,
-				74BAD44D1D0A990B0055678D /* Math.mm */,
-				74BAD4581D0AA0360055678D /* FooStr.h */,
-				74BAD4591D0AA0360055678D /* FooStr.mm */,
-				74BAD44E1D0A990B0055678D /* Math.h */,
 			);
 			path = "example-lib";
 			sourceTree = "<group>";
@@ -108,10 +108,10 @@
 		74BAD4501D0A99120055678D /* common */ = {
 			isa = PBXGroup;
 			children = (
-				74BAD4551D0AA02B0055678D /* foo_str.cc */,
-				74BAD4561D0AA02B0055678D /* foo_str.hh */,
-				74BAD4541D0A9A7F0055678D /* math.hh */,
-				74BAD4521D0A99270055678D /* math.cc */,
+				74343E701D10E5EA00BCBEF1 /* mathlib.cc */,
+				74343E711D10E5EA00BCBEF1 /* mathlib.hh */,
+				74343E721D10E5EA00BCBEF1 /* strlib.cc */,
+				74343E731D10E5EA00BCBEF1 /* strlib.hh */,
 			);
 			name = common;
 			path = ..;
@@ -217,10 +217,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BAD4571D0AA02B0055678D /* foo_str.cc in Sources */,
-				74BAD44F1D0A990B0055678D /* Math.mm in Sources */,
-				74BAD45A1D0AA0360055678D /* FooStr.mm in Sources */,
-				74BAD4531D0A99270055678D /* math.cc in Sources */,
+				74343E751D10E5EA00BCBEF1 /* strlib.cc in Sources */,
+				74343E741D10E5EA00BCBEF1 /* mathlib.cc in Sources */,
+				74343E7B1D10E6FF00BCBEF1 /* StringLib.mm in Sources */,
+				74343E781D10E65000BCBEF1 /* MathLib.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +394,7 @@
 				74BAD4691D0AA3940055678D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

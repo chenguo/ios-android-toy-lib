@@ -11,7 +11,7 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     super(Application.class);
   }
 
-  public void testDotProduct() {
+  public void testMathDotProduct() {
     MathLib m = new MathLib();
     double[] arr1 = {2.0, 1.5, 4};
     double[] arr2 = {1.0, 2.0, 2};
@@ -19,14 +19,14 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
     assertEquals(n, 13.0);
   }
 
-  public void testGetStr() {
+  public void testStrGet() {
     String str = "foobarbaz";
     StringLib s = new StringLib(str);
     String result = s.getStr();
     assertEquals(result, str);
   }
 
-  public void testConcat() {
+  public void testStrConcat() {
     StringLib s = new StringLib("foo");
     String result = s.concat("bar");
     assertEquals(result, "foobar");

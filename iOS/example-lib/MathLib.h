@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface Math : NSObject
+@interface MathLib : NSObject
 
 - (instancetype)init;
 - (double)dotProduct:(double *)x
