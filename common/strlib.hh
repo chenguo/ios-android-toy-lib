@@ -2,7 +2,9 @@
 #define _STRING_LIB_H_
 
 #include <string>
+#include <vector>
 using std::string;
+using std::vector;
 
 namespace Common {
 
@@ -13,9 +15,11 @@ namespace Common {
     ~StringLib();
     string concat(string s);
     string* getInternal();
+    vector<int> getVector();
 
   private:
     string *internalValue;
+    vector<int> testVec;
   };
 
 }

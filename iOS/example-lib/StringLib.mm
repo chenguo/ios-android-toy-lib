@@ -1,5 +1,6 @@
 #import "StringLib.h"
 #import "strlib.hh"
+#import <vector>
 
 @interface StringLib()
 
@@ -25,6 +26,7 @@
 
 - (NSString *)getInternal {
   string *result = self.strLib->getInternal();
+    std::vector<int> v = self.strLib->getVector();
   return [NSString stringWithCString:result->c_str() encoding:NSASCIIStringEncoding];
 }
 
